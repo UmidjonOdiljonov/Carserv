@@ -5,22 +5,13 @@ import kotlin.math.abs
 
 object MyMethods {
 
-    fun getRandomGradient(index: Int): Int {
+    fun getRandomGradient(): Int {
         val list = ArrayList<Int>()
         list.add(R.drawable.ic_gradient1)
         list.add(R.drawable.ic_gradient2)
         list.add(R.drawable.ic_gradient3)
         list.add(R.drawable.ic_gradient4)
-        list.add(R.drawable.ic_gradient5)
-        list.add(R.drawable.ic_gradient6)
-        list.add(R.drawable.ic_gradient7)
-        list.add(R.drawable.ic_gradient8)
-        list.add(R.drawable.ic_gradient9)
-        list.add(R.drawable.ic_gradient10)
-        list.add(R.drawable.ic_gradient11)
-        list.add(R.drawable.ic_gradient12)
-        list.add(R.drawable.ic_gradient13)
-        list.add(R.drawable.ic_gradient14)
+        val index = (Math.random() * 3).toInt()
         return list[index]
     }
 

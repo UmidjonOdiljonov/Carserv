@@ -4,6 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.autoservice.databinding.ItemSuggestedBinding
+import com.example.autoservice.fragments.main_page.MyMethods
 
 class SuggestedAdapter(
     var suggestedList:ArrayList<String>,

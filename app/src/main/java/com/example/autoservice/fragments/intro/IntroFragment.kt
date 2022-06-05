@@ -79,6 +79,6 @@ class IntroFragment : Fragment() {
         tabList = ArrayList()
         tabList.add(IntroTabInfo("Hamyonbop narxlarda professional avtoservis", R.drawable.repair))
         tabList.add(IntroTabInfo("Bizning sifatli xizmatlarimiz har doim mijozlar ehtiyojini qondirish imkonini beradi", R.drawable.car_wash))
-        tabList.add(IntroTabInfo("Bir umrlik sayohatlar uchun yoqilg'ini to'ldiring", R.drawable.petrol))
+        tabList.add(IntroTabInfo("Bir umrlik sayohatlar uchun yoqilg'ini to'ldiring", R.drawable.petrol_svg))
     }
 }

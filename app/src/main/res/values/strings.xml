@@ -2,7 +2,7 @@
     <string name="app_name">CarsServ</string>
 
     <!--    My strings-->
-    <string name="start_using">Start using</string>
+    <string name="start_using">Ilovani ishlatish</string>
     <!--    Registration-->
     <string name="enter_phone_number_register"><b>Register</b></string>
     <string name="enter_phone_number_enter_phone_number_text">Please enter your phone number for registration</string>

@@ -8,7 +8,10 @@
     <TextView
         android:layout_width="match_parent"
         android:gravity="center"
+        android:fontFamily="@font/gordita_regular"
         android:layout_height="match_parent"
-        android:text="Profile fragment" />
+        android:text="Profil qismi hali tugamagan"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_18ssp"/>
 
 </FrameLayout>

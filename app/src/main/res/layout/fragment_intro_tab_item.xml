@@ -21,7 +21,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/image"
-        android:fontFamily="@font/dm_sans_regular"
+        android:fontFamily="@font/gordita_regular"
         android:layout_marginTop="@dimen/_30sdp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

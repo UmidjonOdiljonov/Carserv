@@ -11,6 +11,7 @@
     <TextView
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
+        android:fontFamily="@font/gordita_regular"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -36,6 +37,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:id="@+id/cost"
+            android:fontFamily="@font/gordita_regular"
             android:textColor="@color/black"
             android:text="15000"
             android:textSize="@dimen/_15ssp"/>

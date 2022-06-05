@@ -21,7 +21,6 @@ class AutoServiceAdapter(
             itemBinding.apply {
                 name.text = filter.name
                 distance.text = "${filter.distance} km"
-                layout.setBackgroundResource(MyMethods.getRandomGradient(position))
                 card.setOnClickListener { onItemClick.invoke(filter) }
             }
         }

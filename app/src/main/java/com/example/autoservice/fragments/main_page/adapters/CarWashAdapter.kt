@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.autoservice.databinding.ItemCarWashBinding
 import com.example.autoservice.fragments.main_page.FilterModel
+import com.example.autoservice.fragments.main_page.MyMethods
 
 class CarWashAdapter (
     var filterList: ArrayList<FilterModel>,
@@ -18,7 +19,6 @@ class CarWashAdapter (
             itemBinding.apply {
                 name.text = filter.name
                 distance.text = "${filter.distance} km"
-
                 card.setOnClickListener { onItemCLick.invoke(filter) }
             }
         }
