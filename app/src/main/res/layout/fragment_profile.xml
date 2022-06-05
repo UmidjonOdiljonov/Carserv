@@ -10,7 +10,7 @@
         android:gravity="center"
         android:fontFamily="@font/gordita_regular"
         android:layout_height="match_parent"
-        android:text="Profil qismi hali tugamagan"
+        android:text="Profil bo'limi ustida ishlanmoqda...⚙️"
         android:textColor="@color/black"
         android:textSize="@dimen/_18ssp"/>
 

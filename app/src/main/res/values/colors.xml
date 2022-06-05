@@ -17,6 +17,11 @@
     <color name="disabled_button">#E0F1FB</color>
     <color name="enabled_button">#C2E6FE</color>
 
+    <color name="all_color">#85B5F1</color>
+    <color name="service_color">#E8430F</color>
+    <color name="car_wash_color">#E1CB0E</color>
+    <color name="refueling_color">#AC11C6</color>
+
     <!--<color name="main">#8C52FF</color>
     <color name="enabled_button">#8C52FF</color>
     <color name="view_pager_indicator">#8C52FF</color>
